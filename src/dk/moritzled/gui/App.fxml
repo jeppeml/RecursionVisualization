@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane prefHeight="162.0" prefWidth="445.0" xmlns="http://javafx.com/javafx/8.0.60" xmlns:fx="http://javafx.com/fxml/1" fx:controller="dk.moritzled.gui.AppController">
+   <children>
+      <Button layoutX="140.0" layoutY="33.0" mnemonicParsing="false" onAction="#simpleStart" text="Start simple tree draw" />
+      <Button layoutX="130.0" layoutY="81.0" mnemonicParsing="false" onAction="#advancedStart" text="Start advanced tree draw" />
+      <Button layoutX="130.0" layoutY="130.0" mnemonicParsing="false" onAction="#sierpinsky" text="Start Sierpinsky Triangle" />
+   </children>
+</AnchorPane>
